@@ -1,0 +1,36 @@
+﻿.attentionbar-wrapper { width: 100%; height:35px; z-index:100;}
+.attentionbar-container { width:100%; height:30px; overflow:hidden; z-index:100;} 
+.attentionbar-shadow { width:100%; height:5px; background:url('images/attentionbar-shadow.png') repeat-x left top; }
+.attentionbar-container-left, .attentionbar-container-right { width:20%; height:30px; display:inline-block; line-height:30px; float:left; }
+.attentionbar-container-center { width:50%; height:30px; display:inline-block; line-height:30px; text-align:center; float:left; overflow:hidden; }
+.attentionbar-message { display:block; white-space:nowrap; position:relative; }
+.attentionbar-close-button-container { width:5%; height:30px; display:inline-block; }
+.attentionbar-open-button-container { width:5%; height:0px; display:block; position:absolute; top:0; overflow:hidden; }
+.attentionbar-open-button-container.shadow { background:url('images/attentionbar-button-shadow.png') no-repeat center bottom; }
+.attentionbar-open-button, .attentionbar-close-button { width:28px; height:30px; display:block; margin:0 auto; outline:none; border:none; }
+.attentionbar-open-button {
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.attentionbar-open-button.long-arrow { background:url('images/attentionbar-open-arrow.png') no-repeat center center; }
+.attentionbar-open-button.long-arrow:hover { background:url('images/attentionbar-open-arrow-over.png') no-repeat center center; }
+.attentionbar-close-button.long-arrow { background:url('images/attentionbar-close-arrow.png') no-repeat center center; }
+.attentionbar-close-button.long-arrow:hover { background:url('images/attentionbar-close-arrow-over.png') no-repeat center center; }
+
+.attentionbar-announcement { list-style-type:none; height:30px; margin:0; padding:0; }
+.attentionbar-announcement li { height:30px; float:left; text-align:left; line-height:30px; }
+.attentionbar-announcement li a { width:30px; height:30px; display:inline-block; }
+
+.attentionbar-announcement li.announcement {
+
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: verdana;
+
+}
